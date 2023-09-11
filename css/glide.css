@@ -1,0 +1,49 @@
+
+/* --- glide ---- */
+
+.glide {
+  display: flex;  justify-content: center;  align-items: center;  width:84%;left:8%;  overflow: visible;
+}
+
+.Gfotos { width:100%; left:0; }
+
+.glide__slide {
+  text-align: center;
+  min-height: 400px;
+  min-width:340px;
+  overflow:visible;
+  font-size: 1em;
+  font-weight: 900;
+
+}
+
+.glide__slide[class*="active"] {
+  // background: linear-gradient(-45deg, #ed145b, #7b31f4);
+}
+
+.glide__arrows{
+   position:absolute;top:40%; width: 96vw;min-height: 45px;
+}
+.glide__arrow {
+  border:0;  color:gray;
+  box-shadow: none;
+}
+.glide__arrow--left {
+  left: 0em; 
+}
+.glide__arrow--right {
+  right: 0em;
+}
+.glide__bullets {
+  position:absolute; bottom:-20px;
+  color:gray;
+}
+.glide__bullet {
+  background-color:silver; 
+}
+.glide__bullet:hover {
+  background-color:silver; 
+}
+.arr{width:17px}
+
+  /* --- glide ---- */

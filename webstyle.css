@@ -1,0 +1,57 @@
+
+    body {
+      font-family: 'Sen', sans-serif;
+      font-weight:100;
+      color:#002855;
+      border:0;
+      padding:0;
+      margin:0;
+    }
+    html, body{
+      width:100vw;
+      height:100%;
+    }
+    body{
+      overflow-x: hidden;
+    }
+    * {
+      font-size:1em;
+    }
+    td{
+      padding:0;
+    }
+    :root {
+      --animate-duration: 1800ms;
+      --animate-delay: 1.5s;
+    }
+    .sen-b{
+      font-weight: 700;
+    }
+    
+    .wh {color:white;}
+    -bk {color:black;}
+    .bp, .bpw { position:relative; height:9vh; cursor:pointer; z-index:5;}
+    p { line-height:1.4em;}
+    b { font-family: 'ARS Maquette Pro', sans-serif; font-weight:600;}
+    a {text-decoration: none; color:inherit;}
+    .logo {height:2.3em; margin:1em 1em 1em 5em; vertical-align:middle;}
+    
+    
+    .topMenu{
+      width:100vw; min-width:800px; background-color:#002855; position:fixed; z-index:5; color:white;
+      border-bottom: 1px solid silver;
+    }
+
+    .modal0 {
+       filter: blur(2px); -webkit-filter: blur(2px); -moz-filter: blur(2px); -o-filter: blur(2px); -ms-filter: blur(2px);
+    }
+    #modal00 {
+      display:none;
+      -webkit-backdrop-filter: blur(5px);
+      backdrop-filter: blur(5px);
+    }
+    #modal00{
+      position:fixed;  width:100vw; height:100vh;background-color:rgba(240,240,240,0.5);z-index:19;
+    }
+    
+  
